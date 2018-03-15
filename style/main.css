@@ -103,27 +103,27 @@ header nav ul li a:hover {
 }
 
 /*formulaire connexion*/
-#connexion {
+#connexion_top {
     border-top-right-radius: 15px;
     /*border-bottom-left-radius: 15px;*/
     background-color: rgba(84, 59, 42, 0.43);
     padding: 15px;
 }
 
-#connexion label {
+#connexion_top label {
     width: 100%;
     display: block;
     font-size: 0.75rem;
 }
 
-#connexion input {
+#connexion_top input {
     margin: 5px 0;
     padding: 5px;
     width: 100%;
     display: block;
 }
 
-#connexion input[type="submit"] {
+#connexion_top input[type="submit"] {
     display: block;
     width: 100%;
     margin-top: 15px;
@@ -285,8 +285,11 @@ footer div {
 
 }
 
-/******** INDEX ************/
 
-/******** PRODUCT DETAILS ************/
+/******** CATALOGUE - plats traiteur miam ************/
 
-/******** FORM ************/
+/******** FORM  - connexion page************/
+
+#se_connecter input[type="text"], #se_connecter input[type="submit"]{
+
+}
