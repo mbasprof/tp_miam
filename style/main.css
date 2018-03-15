@@ -49,14 +49,14 @@ h1{
 }
 
 .wrapper {
-    /*width: 80%;*/
+    width: 80%;
     /*background-color: beige;*/
     margin: 0 auto 1.5rem auto;
-    /*padding: 0 1rem;*/
+
 }
 
 header {
-    padding: 20px;
+    padding: 1.5rem 0.5rem;
 }
 
 header, footer {
@@ -104,7 +104,8 @@ header nav ul li a:hover {
 
 /*formulaire connexion*/
 #connexion {
-    border-top-right-radius: 20px;
+    border-top-right-radius: 15px;
+    /*border-bottom-left-radius: 15px;*/
     background-color: rgba(84, 59, 42, 0.43);
     padding: 15px;
 }
@@ -134,26 +135,37 @@ main {
 
 }
 
+/*banner*/
+#banner{
+    margin: 1.5rem auto;
+    width: 80%;
+}
+
 #banner img{
     width: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
+
+/*breadcrumbs*/
 #bread_connect{
-    background-color: rgba(83, 58, 41, 0.78);
+    background-color: #f5f5dc;
     padding: 0.5rem;
+    font-size: 0.75rem;
+    border-top: 1px dashed rgba(83, 58, 41, 0.78);
+    border-bottom: 1px dashed rgba(83, 58, 41, 0.78);
+}
+
+#bread_connect > div {
     display: flex;
     justify-content: space-between;
-    align-content: center ;
-    color:#fff;
-    font-size: 0.75rem;
+    align-content: center;
+    margin: 0 auto;
 }
 
-#breadcrumbs {
-
-
-}
 
 #top-main, #middle-main, #bottom-main {
-    padding: 0 3rem;
+
 }
 
 #top-main p {
@@ -170,7 +182,7 @@ main {
 }
 
 #middle-main section {
-    margin: 1rem 0 1rem 1rem;
+    margin: 1rem 0;
 }
 
 aside {
@@ -179,7 +191,7 @@ aside {
     /*background-color: rgba(234, 155, 9, 0.5);*/
     background-color: #96ba1d;
     padding: 0.5rem;
-    margin: 1rem 1rem 1rem 0 ;
+    margin: 1rem 0 ;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -238,13 +250,16 @@ aside {
 
 #plats_populaires > div {
     flex: 0 1 auto;
-    margin: 1rem;
+    justify-content: space-evenly;
     display: flex;
     flex-direction: column;
 }
+#plats_populaires > div + div {
+    margin-left: 1rem;
+}
 
 #plats_populaires img {
-    width: 200px
+    width: 100%;
 
 }
 

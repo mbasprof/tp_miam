@@ -3,9 +3,9 @@
     define('PAGE_ID', 'accueil');
     require_once('views/page_top.php');
 ?><!-- banner -->
-<div id="banner"><img src="images/background.jpg" alt="Photo"></div>
+<div id="banner" class="wrapper"><img src="images/background.jpg" alt="Photo"></div>
 <!-- #top-main -->
-<div id="top-main">
+<div id="top-main" class="wrapper">
     <h1>Miam, votre traiteur bien aimé</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae dicta illo maiores
         possimus veritatis? Blanditiis corporis magni minus mollitia non omnis pariatur quaerat sequi.
@@ -13,7 +13,7 @@
     <h2>Des petits plats maison sans lever le petit doigt !</h2>
 </div>
 <!--END #topmain-->
-<div id="middle-main">
+<div id="middle-main" class="wrapper">
     <!-- START #categoriest-->
     <section id="categories">
         <div class="categorie" id="cat_entrees">
@@ -60,6 +60,6 @@
     </aside>
 </div>
 <!--  END #middle-main-->
-<div id="bottom-main">
+<div id="bottom-main" class="wrapper">
     <?php require_once('views/plats_populaires.php'); ?>
 </div><?php require_once('views/page_bottom.php'); ?>
