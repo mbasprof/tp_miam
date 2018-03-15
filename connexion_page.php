@@ -1,6 +1,6 @@
 <?php
     define('PAGE_NAME', 'Accueil');
-    define('PAGE_ID', 'accueil');
+    define('PAGE_ID', 'connexion_page');
     require_once('views/page_top.php');
 ?>
 <!-- #top-main -->
@@ -15,7 +15,7 @@
 </div>
 <!--END #topmain-->
 <div id="middle-main" class="wrapper">
-    <!-- START #categoriest-->
+    <!-- START #categories-->
     <section id="se_connecter">
         <h2>Connectez-vous à votre compte :</h2>
         <form id="connexion_compte" method="post">
