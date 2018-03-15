@@ -6,15 +6,15 @@
             <a href="index.php">Accueil</a>
         </li>
         <li>
-            <a href="plats.php">Nos entrées</a>
+            <a href="plats_traiteur_miam.php">Nos entrées</a>
         <li>
-            <a href="plats.php">Nos plats principaux</a>
+            <a href="plats_traiteur_miam.php">Nos plats principaux</a>
         </li>
         <li>
-            <a href="plats.php">Nos desserts</a>
+            <a href="plats_traiteur_miam.php">Nos desserts</a>
         </li>
         <li>
-            <a href="commander.php">Commander</a>
+            <a href="connexion_page.php">Commander</a>
         </li>
     </ul>
 </nav>
