@@ -102,7 +102,7 @@ header nav ul li a:hover {
 
 }
 
-/*formulaire connexion*/
+/*formulaire connexion top*/
 #connexion_top {
     border-top-right-radius: 15px;
     /*border-bottom-left-radius: 15px;*/
@@ -289,7 +289,32 @@ footer div {
 /******** CATALOGUE - plats traiteur miam ************/
 
 /******** FORM  - connexion page************/
+#connexion_page section form{
+    margin: 0 0 3rem 0;
+}
+#connexion_page section{
+    flex:3;
+}
+#connexion_page aside{
+    flex:1;
+}
 
-#se_connecter input[type="text"], #se_connecter input[type="submit"]{
+#se_connecter > form > div{
+    display: flex;
+    margin:1rem 1rem 1rem 0 ;
 
 }
+#se_connecter > form > div > label, #se_connecter > form > div > input {
+    height: 50px;
+}
+#se_connecter > form > div > label{
+    flex: 0 1 150px;
+    vertical-align: middle;
+    padding-right: 0.5rem;
+}
+#se_connecter > form > div > input[type="text"], #se_connecter > form > div > input[type="password"] {
+    flex: 3;
+}
+#se_connecter > form > div > input[type="submit"]{
+    width: 100%;
+ }

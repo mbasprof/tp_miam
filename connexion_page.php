@@ -1,14 +1,18 @@
 <?php
-    define('PAGE_NAME', 'Accueil');
+    define('PAGE_NAME', 'Commander');
     define('PAGE_ID', 'connexion_page');
     require_once('views/page_top.php');
 ?>
     <!-- #top-main -->
     <div id="top-main" class="wrapper">
         <h1>Pour commander :</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae dicta illo maiores
-            possimus veritatis? Blanditiis corporis magni minus mollitia non omnis pariatur quaerat sequi.
-            Excepturi ipsam odio praesentium vero.</p>
+        <ol>
+            <li>premiere etape</li>
+            <li>deuxieme etape</li>
+            <li>troisieme etape</li>
+  
+            
+        </ol>
     </div>
     <!--END #topmain-->
     <div id="middle-main" class="wrapper">
