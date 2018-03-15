@@ -176,7 +176,7 @@ main {
     display: flex;
 }
 
-#middle-main section {
+#middle-main #categories {
     flex: 4;
     display: flex;
 }

@@ -2,48 +2,47 @@
     define('PAGE_NAME', 'Accueil');
     define('PAGE_ID', 'accueil');
     require_once('views/page_top.php');
-?><!-- banner -->
-<div id="banner" class="wrapper"><img src="images/background.jpg" alt="Photo"></div>
+?>
 <!-- #top-main -->
 <div id="top-main" class="wrapper">
-    <h1>Miam, votre traiteur bien aimé</h1>
+    <h1>Pour commander :</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae dicta illo maiores
         possimus veritatis? Blanditiis corporis magni minus mollitia non omnis pariatur quaerat sequi.
         Excepturi ipsam odio praesentium vero.</p>
-    <h2>Des petits plats maison sans lever le petit doigt !</h2>
+    
+    
+    
 </div>
 <!--END #topmain-->
 <div id="middle-main" class="wrapper">
     <!-- START #categoriest-->
-    <section id="categories">
-        <div class="categorie" id="cat_entrees">
-            <h3>Nos<br>entrées</h3>
-            <a href="#"><img src="images/entrees/salades_miam.jpg"
-                             alt="photo d'une entrée préparée par le traiteur Miam">
-                <span>+ d'entrées</span>
-            </a>
-        </div>
-        <div class="categorie" id="cat_plats">
-            <h3>Nos plats<br>principaux</h3>
-            <a href="#"><img src="images/plats/plats_principaux_miam.jpg"
-                             alt="photo d'un plat préparé par le traiteur Miam">
-                <span>+ de plats</span>
-            </a>
-        </div>
-        <div class="categorie" id="cat_desserts">
-            <h3>Nos<br>desserts</h3>
-            <a href="#"><img src="images/desserts/desserts_miam.jpg"
-                             alt="photo d'un plat préparé par le traiteur Miam">
-                <span>+ de desserts</span>
-            </a>
-        </div>
+    <section id="se_connecter">
+        <h2>Connectez-vous à votre compte :</h2>
+        <form id="connexion_compte" method="post">
+            <label for="username">Nom d'utilisateur</label>
+            <input type="text" name="username" id="username" value="" >
+            <label for="pwd">Mot de passe</label>
+            <input type="password" name="pwd" id="pwd" >
+            <input type="submit" name="submit" id="submit" value="Se connecter" >
+        </form>
+        <h2>Si vous n'avez pas de compte, veuillez en créer un :</h2>
+        <form id="creation_compte" method="post">
+            <label for="username">Nom d'utilisateur</label>
+            <input type="text" name="username" id="username" value="" >
+            <label for="pwd">Mot de passe</label>
+            <input type="password" name="pwd" id="pwd" >
+            <label for="confirm_pwd">Confirmation du mot de passe</label>
+            <input type="password" name="confirm_pwd" id="confirm_pwd" >
+            <input type="submit" name="submit" id="submit" value="Créer un compte" >
+        </form>
+
     </section>
     <!--  START aside -->
     <aside>
-        <?php require 'views/order_link.php' ;?>
+<!--        --><?php //require 'views/order_link.php' ;?>
     </aside>
 </div>
 <!--  END #middle-main-->
 <div id="bottom-main" class="wrapper">
-    <?php require_once('views/plats_populaires.php'); ?>
+<!--    --><?php //require_once('views/plats_populaires.php'); ?>
 </div><?php require_once('views/page_bottom.php'); ?>
