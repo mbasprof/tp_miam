@@ -14,7 +14,7 @@
     <body id="<?= PAGE_ID ?>">
         <header class="">
             <div id="logo">
-                <img src="images/logo_miam_200x143.jpg" alt="Logo de Miam, traiteur de plats cuisinés maison">
+                <a href="index.php"><img src="images/logo_miam_200x143.jpg" alt="Logo de Miam, traiteur de plats cuisinés maison"></a>
             </div>
             <?php require(dirname(__FILE__) . '/main_nav.php') ?>
             <?php require(dirname(__FILE__) . '/connexion.php') ?>

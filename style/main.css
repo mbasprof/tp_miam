@@ -44,8 +44,17 @@ h1, h2, h3, h4, h5, h6 {
     color: rgba(83, 58, 41, 0.78);
 
 }
-h1{
+
+h1 {
     font-size: 2.5rem;
+    color: rgba(83, 58, 41, 0.60);
+}
+h2{
+    font-size: 1.75rem;
+}
+
+a {
+    text-decoration: none;
 }
 
 .wrapper {
@@ -80,7 +89,6 @@ header nav ul {
 }
 
 header nav ul li {
-
 
 }
 
@@ -129,26 +137,25 @@ header nav ul li a:hover {
     margin-top: 15px;
 }
 
-
 /* main */
 main {
 
 }
 
 /*banner*/
-#banner{
+#banner {
     margin: 1.5rem auto;
     width: 80%;
 }
 
-#banner img{
+#banner img {
     width: 100%;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
 /*breadcrumbs*/
-#bread_connect{
+#bread_connect {
     background-color: #f5f5dc;
     padding: 0.5rem;
     font-size: 0.75rem;
@@ -162,7 +169,6 @@ main {
     align-content: center;
     margin: 0 auto;
 }
-
 
 #top-main, #middle-main, #bottom-main {
 
@@ -179,6 +185,8 @@ main {
 #middle-main #categories {
     flex: 4;
     display: flex;
+    margin-right: 1rem;
+
 }
 
 #middle-main section {
@@ -191,7 +199,7 @@ aside {
     /*background-color: rgba(234, 155, 9, 0.5);*/
     background-color: #96ba1d;
     padding: 0.5rem;
-    margin: 1rem 0 ;
+    margin: 1rem 0;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -202,26 +210,30 @@ aside {
 #categories {
 
 }
-.categorie{
-    flex:1;
-    border-right:2px solid #fff;
+
+.categorie {
+    flex: 1;
+    border-right: 2px solid #fff;
 }
+
 #cat_entrees, #cat_plats, #cat_desserts {
     background-color: #efcd03;
 }
-.categorie h3{
+
+.categorie h3 {
     padding: 0 0.5rem;
     font-size: 1.5rem;
     margin: 0.75rem 0;
     text-align: center;
-    color:#fff;
     letter-spacing: 1px;
 }
 
 .categorie img {
     max-width: 100%;
+    vertical-align: top;
 }
-.categorie span{
+
+.categorie span {
     display: block;
     padding: 10px 0;
     text-align: center;
@@ -254,6 +266,7 @@ aside {
     display: flex;
     flex-direction: column;
 }
+
 #plats_populaires > div + div {
     margin-left: 1rem;
 }
@@ -285,36 +298,128 @@ footer div {
 
 }
 
-
 /******** CATALOGUE - plats traiteur miam ************/
+.category{
+    border-top: 1px dashed rgba(83, 58, 41, 0.78);
+    border-bottom: 1px dashed rgba(83, 58, 41, 0.78);
+
+}
+.item {
+    display: flex;
+    padding: 0 0 0 1rem;
+    background-color: #f5f5dc;
+    margin:2rem 0;
+
+}
+
+.item_description {
+    flex: 3;
+    padding: 0 1rem;
+}
+.item_description ul {
+    /*list-style: initial;*/
+}
+
+.item_img {
+    flex: 0 0 auto;
+    padding: 0;
+    margin:0;
+    position: relative;
+
+}
+
+.item_img img {
+    width: 200px;
+    vertical-align: top;
+}
+
+.item_img figcaption {
+    font-size: 0.5rem;
+    position: absolute;
+    bottom: 10px;
+}
+
+#plats aside {
+    background-color: transparent;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*secondary nav*/
+#secondary-nav-container {
+    background-color: #efcd03;
+    border-top-right-radius: 20px;
+}
+#secondary-nav-container h2 {
+    margin: 0.75rem 0 0 0;
+}
+
+#secondary-nav ul {
+    margin-bottom: 0;
+}
+
+#secondary-nav ul li a {
+    padding: 0.75rem 0;
+    display: block;
+    color:#fff;
+
+}
+
+#secondary-nav ul li a:hover {
+    background-color: #c30000;
+
+}
+
+#order {
+    background-color: #96ba1d;
+    border-bottom-right-radius: 20px;
+
+}
+#order > a{
+    display: block;
+    color:#fff;
+}
+#order h2{
+    color: rgba(83, 58, 41, 0.65);
+}
+#order:hover h2{
+    color: rgba(83, 58, 41, 0.8);
+}
 
 /******** FORM  - connexion page************/
-#connexion_page section form{
+#connexion_page section form {
     margin: 0 0 3rem 0;
 }
-#connexion_page section{
-    flex:3;
-}
-#connexion_page aside{
-    flex:1;
+
+#connexion_page section {
+    flex: 3;
 }
 
-#se_connecter > form > div{
+#connexion_page aside {
+    flex: 1;
+}
+
+#se_connecter > form > div {
     display: flex;
-    margin:1rem 1rem 1rem 0 ;
+    margin: 1rem 1rem 1rem 0;
 
 }
+
 #se_connecter > form > div > label, #se_connecter > form > div > input {
     height: 50px;
 }
-#se_connecter > form > div > label{
+
+#se_connecter > form > div > label {
     flex: 0 1 150px;
     vertical-align: middle;
     padding-right: 0.5rem;
 }
+
 #se_connecter > form > div > input[type="text"], #se_connecter > form > div > input[type="password"] {
     flex: 3;
 }
-#se_connecter > form > div > input[type="submit"]{
+
+#se_connecter > form > div > input[type="submit"] {
     width: 100%;
- }
+}

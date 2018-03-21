@@ -17,30 +17,33 @@
     <!-- START #categoriest-->
     <section id="categories">
         <div class="categorie" id="cat_entrees">
-            <h3>Nos<br>entrées</h3>
-            <a href="#"><img src="images/entrees/salades_miam.jpg"
-                             alt="photo d'une entrée préparée par le traiteur Miam">
-                <span>+ d'entrées</span>
+            <a href="plats_traiteur_miam.php">
+                <h3>Nos<br>entrées</h3>
+                <img src="images/entrees/salades_miam.jpg"
+                     alt="photo d'une entrée préparée par le traiteur Miam">
+                <!--                <span>+ d'entrées</span>-->
             </a>
         </div>
         <div class="categorie" id="cat_plats">
-            <h3>Nos plats<br>principaux</h3>
-            <a href="#"><img src="images/plats/plats_principaux_miam.jpg"
-                             alt="photo d'un plat préparé par le traiteur Miam">
-                <span>+ de plats</span>
+            <a href="plats_traiteur_miam.php">
+                <h3>Nos plats<br>principaux</h3>
+                <img src="images/plats/plats_principaux_miam.jpg"
+                     alt="photo d'un plat préparé par le traiteur Miam">
+                <!--                <span>+ de plats</span>-->
             </a>
         </div>
         <div class="categorie" id="cat_desserts">
-            <h3>Nos<br>desserts</h3>
-            <a href="#"><img src="images/desserts/desserts_miam.jpg"
-                             alt="photo d'un plat préparé par le traiteur Miam">
-                <span>+ de desserts</span>
+            <a href="plats_traiteur_miam.php">
+                <h3>Nos<br>desserts</h3>
+                <img src="images/desserts/desserts_miam.jpg"
+                     alt="photo d'un plat préparé par le traiteur Miam">
+                <!--                <span>+ de desserts</span>-->
             </a>
         </div>
     </section>
     <!--  START aside -->
     <aside>
-        <?php require 'views/order_link.php' ;?>
+        <?php require 'views/order_link.php'; ?>
     </aside>
 </div>
 <!--  END #middle-main-->
