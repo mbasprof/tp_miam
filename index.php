@@ -19,7 +19,7 @@
         <div class="categorie" id="cat_entrees">
             <a href="plats_traiteur_miam.php">
                 <h3>Nos<br>entrées</h3>
-                <img src="images/entrees/salades_miam.jpg"
+                <img src="images/salades_miam.jpg"
                      alt="photo d'une entrée préparée par le traiteur Miam">
                 <!--                <span>+ d'entrées</span>-->
             </a>
@@ -27,7 +27,7 @@
         <div class="categorie" id="cat_plats">
             <a href="plats_traiteur_miam.php">
                 <h3>Nos plats<br>principaux</h3>
-                <img src="images/plats/plats_principaux_miam.jpg"
+                <img src="images/plats_principaux_miam.jpg"
                      alt="photo d'un plat préparé par le traiteur Miam">
                 <!--                <span>+ de plats</span>-->
             </a>

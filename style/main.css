@@ -319,6 +319,12 @@ footer div {
 .item_description ul {
     /*list-style: initial;*/
 }
+.item_description ul li {
+ margin: 0.5rem;
+}
+.item_caract{
+    font-weight: bold;
+}
 
 .item_img {
     flex: 0 0 auto;

@@ -1,5 +1,5 @@
 <?php
-    require (dirname(__FILE__)) . '/../defines.php';
+    require dirname(__FILE__).'/../defines/defines.php';
 
 ?>
 <!DOCTYPE html>

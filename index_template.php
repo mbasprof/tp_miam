@@ -67,14 +67,14 @@
                 <section id="categories">
                     <div class="categorie" id="cat_entrees">
                         <h3>Nos<br>entrées</h3>
-                        <a href="#"><img src="images/entrees/salades_miam.jpg"
+                        <a href="#"><img src="images/salades_miam.jpg"
                                          alt="photo d'une entrée préparée par le traiteur Miam">
                             <span>+ d'entrées</span>
                         </a>
                     </div>
                     <div class="categorie" id="cat_plats">
                         <h3>Nos plats<br>principaux</h3>
-                        <a href="#"><img src="images/plats/plats_principaux_miam.jpg"
+                        <a href="#"><img src="images/plats_principaux_miam.jpg"
                                          alt="photo d'un plat préparé par le traiteur Miam">
                             <span>+ de plats</span>
                         </a>
@@ -114,19 +114,19 @@
                 <!-- plats populaires-->
                 <div id="plats_populaires">
                     <div class="plat_populaire">
-                        <a href="#"><img src="images/plats/poulet_populaire.jpg" alt=""></a>
+                        <a href="#"><img src="images/poulet_populaire.jpg" alt=""></a>
                     </div>
                     <div class="plat_populaire">
-                        <a href="#"><img src="images/plats/poulet_populaire.jpg" alt=""></a>
+                        <a href="#"><img src="images/poulet_populaire.jpg" alt=""></a>
                     </div>
                     <div class="plat_populaire">
-                        <a href="#"><img src="images/plats/poulet_populaire.jpg" alt=""></a>
+                        <a href="#"><img src="images/poulet_populaire.jpg" alt=""></a>
                     </div>
                     <div class="plat_populaire">
-                        <a href="#"><img src="images/plats/poulet_populaire.jpg" alt=""></a>
+                        <a href="#"><img src="images/poulet_populaire.jpg" alt=""></a>
                     </div>
                     <div class="plat_populaire">
-                        <a href="#"><img src="images/plats/poulet_populaire.jpg" alt=""></a>
+                        <a href="#"><img src="images/poulet_populaire.jpg" alt=""></a>
                     </div>
                 </div>
             </div>
