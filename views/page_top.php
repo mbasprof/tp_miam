@@ -1,6 +1,5 @@
 <?php
-    require dirname(__FILE__).'/../defines/defines.php';
-
+    require_once(dirname(__FILE__) . '/../defines.php');
 ?>
 <!DOCTYPE html>
 <html lang="fr">
