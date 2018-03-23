@@ -2,6 +2,7 @@
     define('PAGE_NAME', 'Accueil');
     define('PAGE_ID', 'accueil');
     require_once('views/page_top.php');
+
 ?><!-- banner -->
 <div id="banner" class="wrapper"><img src="images/background.jpg" alt="Photo"></div>
 <!-- #top-main -->
@@ -19,7 +20,7 @@
         <div class="categorie" id="cat_entrees">
             <a href="plats_traiteur_miam.php">
                 <h3>Nos<br>entrées</h3>
-                <img src="images/salades_miam.jpg"
+                <img src="<?= IMG_PATH . '/' ?>salades_miam.jpg"
                      alt="photo d'une entrée préparée par le traiteur Miam">
                 <!--                <span>+ d'entrées</span>-->
             </a>
@@ -27,7 +28,7 @@
         <div class="categorie" id="cat_plats">
             <a href="plats_traiteur_miam.php">
                 <h3>Nos plats<br>principaux</h3>
-                <img src="images/plats_principaux_miam.jpg"
+                <img src="<?= IMG_PATH . '/' ?>plats_principaux_miam.jpg"
                      alt="photo d'un plat préparé par le traiteur Miam">
                 <!--                <span>+ de plats</span>-->
             </a>
@@ -35,7 +36,7 @@
         <div class="categorie" id="cat_desserts">
             <a href="plats_traiteur_miam.php">
                 <h3>Nos<br>desserts</h3>
-                <img src="images/desserts/desserts_miam.jpg"
+                <img src="<?= IMG_PATH . '/' ?>desserts_miam.jpg"
                      alt="photo d'un plat préparé par le traiteur Miam">
                 <!--                <span>+ de desserts</span>-->
             </a>

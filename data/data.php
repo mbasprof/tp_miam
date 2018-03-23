@@ -9,14 +9,14 @@
     //Catalogue des produits
 
     $categories = array (
-        0 => 'Entrée',
-        1 => 'Plat principal',
-        2 => 'Dessert',
+        0 => 'Entrées',
+        1 => 'Plats de résistance',
+        2 => 'Desserts',
 
     );
 
     $products = array(
-        '1' => array(
+        '5' => array(
             'prod_name' => 'Salade d\'épinards au fromage de chèvre',
             'category_id' => 0,
             'category_name' => 'entrée',
@@ -26,7 +26,7 @@
             'prod_price' => 5,
             'prod_portion' => '500 ml',
         ),
-        '2' => array(
+        '6' => array(
             'prod_name' => 'Potage parisien',
             'category_id' => 0,
             'category_name' => 'entrée',
@@ -36,7 +36,7 @@
             'prod_price' => 4,
             'prod_portion' => '500 ml',
         ),
-        '3' => array(
+        '7' => array(
             'prod_name' => 'Côtelette d\'agneau au chutney à la mangue',
             'category_id' => 1,
             'category_name' => 'plat_principal',
