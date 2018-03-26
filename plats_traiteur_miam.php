@@ -68,16 +68,16 @@
                 <nav id="secondary-nav">
                     <ul>
                         <li>
-                            <a href="?category_id=<?= urlencode('0') ?>">Nos entrées</a>
+                            <a href="<?= PLATS_FILENAME,  '?category_id=', urlencode('0') ?>">Nos entrées</a>
                         </li>
                         <li>
-                            <a href="?category_id=<?= urlencode('1') ?>">Nos plats principaux</a>
+                            <a href="<?= PLATS_FILENAME,  '?category_id=', urlencode('1') ?>">Nos plats principaux</a>
                         </li>
                         <li>
-                            <a href="?category_id=<?= urlencode('2') ?>">Nos desserts</a>
+                            <a href="<?= PLATS_FILENAME,  '?category_id=', urlencode('2') ?>">Nos desserts</a>
                         </li>
                         <li>
-                            <a href="plats_traiteur_miam.php">Tous les plats</a>
+                            <a href="<?= PLATS_FILENAME ?>">Tous les plats</a>
                         </li>
                     </ul>
                 </nav>
