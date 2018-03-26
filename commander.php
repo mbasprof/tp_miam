@@ -1,18 +1,11 @@
 <?php
     define('PAGE_NAME', 'Commander');
-    define('PAGE_ID', 'connexion_page');
+    define('PAGE_ID', 'commander');
     require_once('views/page_top.php');
 ?>
     <!-- #top-main -->
     <div id="top-main" class="wrapper">
         <h1>Pour commander :</h1>
-        <ol>
-            <li>premiere etape</li>
-            <li>deuxieme etape</li>
-            <li>troisieme etape</li>
-  
-            
-        </ol>
     </div>
     <!--END #topmain-->
     <div id="middle-main" class="wrapper">
@@ -53,10 +46,11 @@
         </section>
         <!--  START aside -->
         <aside>
-            <!--        --><?php //require 'views/order_link.php' ;?>
+            <?php require('views/secondary_nav.php'); ?>
+            <?php require('views/order_link.php'); ?>
         </aside>
     </div>
     <!--  END #middle-main-->
     <div id="bottom-main" class="wrapper">
-    <!--    --><?php //require_once('views/plats_populaires.php'); ?>
+<?php require_once('views/plats_populaires.php'); ?>
     </div><?php require_once('views/page_bottom.php'); ?>
