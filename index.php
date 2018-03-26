@@ -18,7 +18,7 @@
     <!-- START #categoriest-->
     <section id="categories">
         <div class="categorie" id="cat_entrees">
-            <a href="plats_traiteur_miam.php">
+            <a href="<?= PLATS_FILENAME,  '?category_id=', urlencode('0') ?>">
                 <h3>Nos<br>entrées</h3>
                 <img src="<?= IMG_PATH . '/' ?>salades_miam.jpg"
                      alt="photo d'une entrée préparée par le traiteur Miam">
@@ -26,7 +26,7 @@
             </a>
         </div>
         <div class="categorie" id="cat_plats">
-            <a href="plats_traiteur_miam.php">
+            <a href="<?= PLATS_FILENAME,  '?category_id=', urlencode('1') ?>">
                 <h3>Nos plats<br>principaux</h3>
                 <img src="<?= IMG_PATH . '/' ?>plats_principaux_miam.jpg"
                      alt="photo d'un plat préparé par le traiteur Miam">
@@ -34,7 +34,7 @@
             </a>
         </div>
         <div class="categorie" id="cat_desserts">
-            <a href="plats_traiteur_miam.php">
+            <a href="<?= PLATS_FILENAME,  '?category_id=', urlencode('2') ?>">
                 <h3>Nos<br>desserts</h3>
                 <img src="<?= IMG_PATH . '/' ?>desserts_miam.jpg"
                      alt="photo d'un plat préparé par le traiteur Miam">
@@ -43,8 +43,8 @@
         </div>
     </section>
     <!--  START aside -->
-    <aside>
-        <?php require 'views/order_link.php'; ?>
+    <aside id="aside_index">
+        <?php require ('views/order_link.php'); ?>
     </aside>
 </div>
 <!--  END #middle-main-->

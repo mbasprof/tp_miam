@@ -17,8 +17,9 @@
 
         );
 
-        return array_key_exists($username, $users)  //l'utilisateur existe dans le tableau des utilisateurs
-            && ($users[$username] === md5($pwd);// on compare le mot de passe saisi au mot de passe encrypté
+        //l'utilisateur existe dans le tableau des utilisateurs
+        // on compare le mot de passe saisi au mot de passe encrypté
+        return array_key_exists($username, $users) && ($users[$username] === md5($pwd));
 
     }
 
