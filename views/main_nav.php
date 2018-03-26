@@ -3,18 +3,19 @@
 ?><nav id="main-nav">
     <ul>
         <li>
-            <a href="index.php">Accueil</a>
+            <a href="<?= ACCUEIL_FILENAME ?>">Accueil</a>
         </li>
         <li>
-            <a href="plats_traiteur_miam.php">Nos entrées</a>
-        <li>
-            <a href="plats_traiteur_miam.php">Nos plats principaux</a>
+            <a href="<?= PLATS_FILENAME,  '?category_id=', urlencode('0') ?>">Nos entrées</a>
         </li>
         <li>
-            <a href="plats_traiteur_miam.php">Nos desserts</a>
+            <a href="<?= PLATS_FILENAME,  '?category_id=', urlencode('1') ?>">Nos plats principaux</a>
         </li>
         <li>
-            <a href="connexion_page.php">Commander</a>
+            <a href="<?= PLATS_FILENAME,  '?category_id=', urlencode('2') ?>">Nos desserts</a>
+        </li>
+        <li>
+            <a href="<?= COMMANDER_FILENAME ?>">Commander</a>
         </li>
     </ul>
 </nav>
