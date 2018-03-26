@@ -405,6 +405,10 @@ footer div {
 #commander aside {
     flex: 1;
 }
+#se_connecter{
+    background-color: #f5f5dc;
+    padding: 1rem;
+}
 
 #se_connecter > form > div {
     display: flex;
