@@ -2,7 +2,12 @@
     <?php if (!user_is_logged()) { ?>
         <!--  affichage du formulaire de login-->
         <form method="post" name="login">
-            <label for="username">Utilisateur</label>
+            <?php
+                if (!is_username_ok()) {
+                    echo $err_msg;
+                }
+            ?>
+            <label for="username">Nom d'utilisateur</label>
             <input type="text" name="username" id="username" value="">
             <label for="pwd">Mot de passe</label>
             <input type="password" name="pwd" id="pwd" value="">
