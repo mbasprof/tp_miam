@@ -345,8 +345,8 @@ footer div {
     bottom: 10px;
 }
 
-#plats aside {
-    background-color: transparent;
+#plats aside, #commander aside {
+    background-color: transparent !important;
     padding: 0;
     display: flex;
     justify-content: flex-start;
@@ -394,15 +394,15 @@ footer div {
 }
 
 /******** FORM  - connexion page************/
-#connexion_page section form {
+#commander section form {
     margin: 0 0 3rem 0;
 }
 
-#connexion_page section {
+#commander section {
     flex: 3;
 }
 
-#connexion_page aside {
+#commander aside {
     flex: 1;
 }
 
