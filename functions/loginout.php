@@ -22,9 +22,9 @@
 
         // on filtre les données reçues
         $username = filter_var($_POST['username'], FILTER_SANITIZE_STRING);
-        var_dump('Nom de l\'utilisateur', $username);
+         var_dump('Nom de l\'utilisateur', $username);
         $pwd = filter_var($_POST['pwd'], FILTER_SANITIZE_STRING);
-        var_dump('Mot de passe', $pwd);
+         var_dump('Mot de passe', $pwd);
 
         //on authentifie
         require_once dirname(__FILE__) . '/authenticate.php'; //repertoire courant du fichier en cours
