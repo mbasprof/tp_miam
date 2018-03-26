@@ -63,26 +63,8 @@
         </section>
         <!--  START aside -->
         <aside>
-            <div id="secondary-nav-container">
-                <h2>Voir :</h2>
-                <nav id="secondary-nav">
-                    <ul>
-                        <li>
-                            <a href="<?= PLATS_FILENAME,  '?category_id=', urlencode('0') ?>">Nos entrées</a>
-                        </li>
-                        <li>
-                            <a href="<?= PLATS_FILENAME,  '?category_id=', urlencode('1') ?>">Nos plats principaux</a>
-                        </li>
-                        <li>
-                            <a href="<?= PLATS_FILENAME,  '?category_id=', urlencode('2') ?>">Nos desserts</a>
-                        </li>
-                        <li>
-                            <a href="<?= PLATS_FILENAME ?>">Tous les plats</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <?php require 'views/order_link.php'; ?>
+            <?php require('views/secondary_nav.php'); ?>
+            <?php require ('views/order_link.php'); ?>
         </aside>
     </div>
     <!--  END #middle-main-->
