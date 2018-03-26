@@ -111,27 +111,27 @@ header nav ul li a:hover {
 }
 
 /*formulaire connexion top*/
-#connexion_top {
+#loginout_form {
     border-top-right-radius: 15px;
     /*border-bottom-left-radius: 15px;*/
     background-color: rgba(84, 59, 42, 0.43);
     padding: 15px;
 }
 
-#connexion_top label {
+#loginout_form label {
     width: 100%;
     display: block;
     font-size: 0.75rem;
 }
 
-#connexion_top input {
+#loginout_form input {
     margin: 5px 0;
     padding: 5px;
     width: 100%;
     display: block;
 }
 
-#connexion_top input[type="submit"] {
+#loginout_form input[type="submit"] {
     display: block;
     width: 100%;
     margin-top: 15px;
