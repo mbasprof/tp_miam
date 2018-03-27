@@ -14,4 +14,6 @@
     define('ACCUEIL_FILENAME', 'index.php');
     define('COMMANDER_FILENAME', 'commander.php');
 
+    define('BONJOUR_MSG', 'Bonjour, ');
+
     

@@ -27,10 +27,13 @@
             <div class="wrapper">
                 <div id="breadcrumbs">
                     <a href="index.php">Accueil</a>
-                    breadcrumbs a faire si il y a le temps
                 </div>
                 <div id="connected">
-                    <span>Bonjour, Marion !</span>
+                    <span><?php
+                            if (array_key_exists(SESSION_USERNAME, $_SESSION)) {
+                                echo BONJOUR_MSG . $_SESSION[SESSION_USERNAME] . ' !';
+                            } ?>
+                    </span>
                 </div>
             </div>
         </div>
