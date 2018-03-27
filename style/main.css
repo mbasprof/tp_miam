@@ -116,6 +116,7 @@ header nav ul li a:hover {
     /*border-bottom-left-radius: 15px;*/
     background-color: rgba(84, 59, 42, 0.43);
     padding: 15px;
+    flex: 0 0 260px;
 }
 
 #loginout_form label {
@@ -394,6 +395,10 @@ footer div {
 }
 
 /******** FORM  - connexion page************/
+.invalid{
+    color: #c30000;
+    font-size: 0.75rem;
+}
 #commander section form {
     margin: 0 0 3rem 0;
 }
