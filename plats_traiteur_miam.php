@@ -19,7 +19,7 @@
     // si paramètre category_id dans les données GET et si la clé existe dans le tableau $categories
     if (array_key_exists('category_id', $_GET) && array_key_exists($_GET['category_id'], $categories)) {
         $category_id = $_GET['category_id'];
-        var_dump($category_id);
+//        var_dump($category_id);
     }
     if (!is_null($category_id)) {
         $category_name = $categories[$category_id];

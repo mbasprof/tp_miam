@@ -68,7 +68,7 @@ header {
     padding: 1.5rem 0.5rem;
 }
 
-header, footer {
+header, #footer-top {
     display: flex;
     justify-content: space-around;
 
@@ -136,6 +136,12 @@ header nav ul li a:hover {
     display: block;
     width: 100%;
     margin-top: 15px;
+}
+#connected{
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+    font-size: 0.85rem;
 }
 
 /* main */
@@ -299,6 +305,18 @@ footer div {
 
 }
 
+footer p{
+    font-size: 0.85rem;
+}
+#copyright{
+    font-size: 0.75rem;
+    text-align: center;
+
+}
+#copyright p{
+    margin-bottom: 0;
+}
+
 /******** CATALOGUE - plats traiteur miam ************/
 .category{
     border-top: 1px dashed rgba(83, 58, 41, 0.78);
@@ -394,13 +412,10 @@ footer div {
     color: rgba(83, 58, 41, 0.8);
 }
 
-/******** FORM  - connexion page************/
+/******** FORM  - page commander************/
 .invalid{
     color: #c30000;
-    font-size: 0.75rem;
-}
-#commander section form {
-    margin: 0 0 3rem 0;
+    font-size: 1rem;
 }
 
 #commander section {
@@ -431,10 +446,24 @@ footer div {
     padding-right: 0.5rem;
 }
 
+form input {
+    padding: 5px;
+    font-size: 1rem;
+    color:inherit;
+}
+#loginout_form input[type="submit"]{
+    font-size: 0.75rem;
+}
 #se_connecter > form > div > input[type="text"], #se_connecter > form > div > input[type="password"] {
     flex: 3;
 }
 
 #se_connecter > form > div > input[type="submit"] {
     width: 100%;
+}
+
+#se_connecter ol  {
+    font-size: 1.5rem;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: rgba(83, 58, 41, 0.60);
 }

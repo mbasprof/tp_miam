@@ -8,7 +8,7 @@
 
     //Catalogue des produits
 
-    $categories = array (
+    $categories = array(
         0 => 'Entrées',
         1 => 'Plats de résistance',
         2 => 'Desserts',

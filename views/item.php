@@ -17,6 +17,6 @@
          alt="Photo du plat <?= $product['prod_name'] ?> ">
     <figcaption><a
             href="<?= $product['prod_img_credit'] ?>"
-            target="_blank">Designed by Freepik</a></figcaption>
+            target="_blank">Photo by Freepik</a></figcaption>
 </figure>
 </div>
